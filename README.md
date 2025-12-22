@@ -73,7 +73,6 @@ RISCV/
 ├── 🖼️ riscv_processor.png        # Datapath Block Diagram
 ├── 🖼️ riscv_processor_other_signals.png
 └── 📝 README.md                 # Project Documentation
-
 ---
 
 ## 🧠 Top-Level Module: mini_cpu
