@@ -57,6 +57,7 @@ Note: Hazard detection and forwarding are **not implemented** and are planned as
 
 ## 🧩 Project Structure
 
+```text
 RISCV/
 ├── Design Sources/
 │   └── riscv_implementation/
@@ -75,6 +76,8 @@ RISCV/
 ├── riscv_processor.png
 ├── riscv_processor_other_signals.png
 └── README.md
+```
+---
 
 ## 🧠 Top-Level Module: mini_cpu
 
