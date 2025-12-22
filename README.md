@@ -76,7 +76,6 @@ RISCV/
 ├── riscv_processor_other_signals.png
 └── README.md
 
-
 ---
 
 ## 🧠 Top-Level Module: mini_cpu
