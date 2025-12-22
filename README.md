@@ -58,23 +58,21 @@ Note: Hazard detection and forwarding are **not implemented** and are planned as
 ## 🧩 Project Structure
 
 RISCV/
-├── Design Sources/
+├── 🏗️ Design Sources/
 │   └── riscv_implementation/
-│       ├── mini_cpu.v
-│       ├── fetch_stage.v
-│       ├── decode_stage.v
-│       ├── execute_path.v
-│       ├── memory_stage.v
-│       ├── id_ex_register.v
-│       ├── ex_mem_register.v
-│       └── mem_wb_register.v
-│
-├── Testbenches/
-│   └── tb_mini_cpu.v
-│
-├── riscv_processor.png
-├── riscv_processor_other_signals.png
-└── README.md
+│       ├── mini_cpu.v           # Top-level module (System Integration)
+│       ├── fetch_stage.v        # Instruction Fetch (IF) logic
+│       ├── decode_stage.v       # Instruction Decode (ID) & Register File
+│       ├── execute_path.v       # Execution stage (ALU & Branching)
+│       ├── memory_stage.v       # Data Memory Access (MEM)
+│       ├── id_ex_register.v     # IF/ID to ID/EX Pipeline Buffer
+│       ├── ex_mem_register.v    # ID/EX to EX/MEM Pipeline Buffer
+│       └── mem_wb_register.v    # EX/MEM to MEM/WB Pipeline Buffer
+├── 🧪 Testbenches/
+│   └── tb_mini_cpu.v           # Comprehensive system testbench
+├── 🖼️ riscv_processor.png        # Datapath Block Diagram
+├── 🖼️ riscv_processor_other_signals.png
+└── 📝 README.md                 # Project Documentation
 
 ---
 
